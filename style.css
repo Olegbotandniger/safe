@@ -1,0 +1,1572 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.hat {
+    width: auto;
+    height: 224px;
+    gap: 0px;
+    opacity: 0 px;
+    position: relative;
+}
+
+.up-panel {
+    top: auto;
+    left: 396px;
+    width: 987px;
+    height: 110px;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.info-hat {
+    font-family: "Roboto", sans-serif;
+    color: rgb(158, 158, 158);
+}
+
+.delfa {
+    height: 100px;
+}
+
+.line-hat {
+    position: absolute;
+    bottom: 104px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(150, 150, 150, 0.664);
+}
+
+.headrest {
+    width: auto;
+    height: 567px;
+    gap: 0px;
+    opacity: 0px;
+    background: #ECD0A6;
+
+}
+
+.telephone {
+    width: 20px;
+    margin-right: 15px;
+}
+
+.number {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    font-weight: 600;
+
+}
+
+.placeholder {
+    width: 20px;
+    margin-right: 15px;
+}
+
+.geoloc {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    font-weight: 400;
+    color: rgb(158, 158, 158);
+}
+
+.cart {
+    width: 25px;
+}
+
+.down-panel {
+    font-family: "Roboto", sans-serif;
+    top: 10px;
+    left: 396px;
+    width: 987px;
+    height: 100px;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.gorizontal-list {
+    list-style-type: none;
+    /* Убираем маркеры списка */
+    padding: 0;
+    /* Убираем отступы */
+    display: flex;
+    /* Используем flexbox для горизонтального расположения */
+    justify-content: space-around;
+    /* Распределяем элементы по горизонтали */
+}
+
+.punkt {
+    margin: 0 30px;
+    /* Отступы между пунктами */
+    color: rgba(150, 150, 150, 0.664);
+}
+
+.punkt:hover {
+    color: rgba(150, 150, 150, 0.877);
+}
+
+.skidka {
+    background-color: #B0751D;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 5%;
+    left: 50%;
+}
+
+.procent {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: 30%;
+    margin: 0%;
+    font-weight: 700;
+    color: white;
+}
+
+.data-do {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 30%;
+    margin: 0%;
+    color: white;
+    font-weight: 400px;
+}
+
+
+.ohrana-truda {
+    position: absolute;
+    width: 505px;
+    height: 168px;
+    top: 322px;
+    left: 420px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.38px;
+    text-align: left;
+    margin: 0;
+}
+
+.ohrana-truda-info {
+    width: 444px;
+    height: 73px;
+    top: 430px;
+    left: 420px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    position: absolute;
+    margin: 0;
+}
+
+.zapisaca {
+    position: absolute;
+    margin: 0;
+    width: 220px;
+    height: 43px;
+    top: 539px;
+    left: 420px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: #B0751D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    color: #FFFFFF;
+    transition: 0.3s;
+    border: none;
+}
+
+.zapisaca:hover {
+    color: #B0751D;
+    background-color: #FFFFFF;
+
+}
+
+.zapisaca:active {
+    background: #ffffff;
+    color: #B0751D;
+    transition: 0s;
+}
+
+.info-ohrana-truda-xz {
+    height: 200px;
+    width: 1000px;
+    position: absolute;
+    left: 420px;
+    top: 624px;
+    bottom: 23%;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.infooo {}
+
+.top-item {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    color: #C28221;
+
+}
+
+.bottom-item {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #473F32;
+
+}
+
+.kaska {
+    width: 390px;
+    height: 312px;
+    top: 296px;
+    left: 1037px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.safety {
+    height: 1000px;
+    background-color: white;
+    width: 100%;
+}
+
+.punkt-1 {
+    position: absolute;
+    height: 231px;
+    width: 1000px;
+    top: 875px;
+    left: 420px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+}
+
+.text-block {
+    margin-left: 31px;
+}
+
+.ohr-trud {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+}
+
+.Я_устал_придумывать_классы {
+    color: #3E53A0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.03px;
+    text-align: left;
+    margin: 0%;
+}
+
+
+.Я_устал_придумывать_классы:hover {
+    text-decoration-line: underline;
+}
+
+.punkt-2 {
+    position: absolute;
+    width: 1000px;
+    height: 231px;
+    top: 1149px;
+    left: 420px;
+    display: flex;
+}
+
+.punkt-3 {
+    width: 1000px;
+    height: 231px;
+    top: 1423px;
+    left: 420px;
+    gap: 0px;
+    border-radius: 60px 0px 60px 0px;
+    opacity: 0px;
+    position: absolute;
+    display: flex;
+}
+
+
+
+
+.responsibility {
+    background-color: black;
+    height: 651px;
+}
+
+.tex-responsibility {
+    width: 591px;
+    height: 84px;
+    top: 1837px;
+    left: 420px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.38px;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+.shtraf {
+    position: absolute;
+    width: 1017px;
+    height: 125px;
+    top: 1982px;
+    left: 470px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: center;
+    color: #FFFFFFB2;
+    margin: 0%;
+}
+
+.two-blocks {
+    width: 1111px;
+    height: 107px;
+    top: 2094px;
+    left: 420px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1 {
+    width: 540px;
+    height: 107px;
+    gap: 0px;
+    border-radius: 60px 0px 60px 0px;
+    opacity: 0px;
+    background: #C28221;
+
+}
+
+.Микро-текст {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 23px;
+    margin-bottom: 6px;
+}
+
+.Большой-текст {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.block2 {
+    width: 540px;
+    height: 107px;
+    gap: 0px;
+    border-radius: 60px 0px 60px 0px;
+    opacity: 0px;
+    background: #C28221;
+}
+
+.xz {
+    position: absolute;
+    margin: 0%;
+    width: 1041px;
+    height: 125px;
+    top: 2260px;
+    left: 470px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: center;
+    color: #FFFFFFB2;
+
+}
+
+.Program {
+    height: 2830px;
+    background-color: white;
+    width: 100%;
+}
+
+.program-training {
+    width: 727px;
+    height: 84px;
+    top: 2568px;
+    left: 392px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.38px;
+    text-align: left;
+    position: absolute;
+    margin: 0;
+}
+
+
+.giga-block {
+    width: 1110px;
+    height: 1699px;
+    top: 2868px;
+    left: 396px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 18px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    position: absolute;
+    margin: 0;
+    border: 3px solid #C28221
+}
+
+.giga-hat {
+    width: 1110px;
+    top: 2868px;
+    left: 396px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.giga-ptm {
+    width: 698px;
+    height: 76px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    color: #000000;
+    margin-top: 36px;
+    margin-left: 50px;
+
+}
+
+.stoimost-giga-kursa {
+    width: 200px;
+    height: 100px;
+    margin-top: 36px;
+}
+
+.stoimost {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    margin: 2px;
+}
+
+.cena {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left;
+    margin: 0px;
+}
+
+.data-s-icon {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left;
+    margin: 0;
+}
+
+.block-for-group {
+    height: 76px;
+    top: 150px;
+    width: 698px;
+    padding: 0px 0.94px 0px 0.94px;
+    gap: 0px;
+    opacity: 0px;
+
+    display: flex;
+
+}
+
+
+.block-for-clock {
+    height: 76px;
+    top: 150px;
+    width: 698px;
+    padding: 0px 0.94px 0px 0.94px;
+    gap: 0px;
+    opacity: 0px;
+
+    display: flex;
+
+
+}
+
+.time-s-icon {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left;
+    margin: 0;
+}
+
+
+.clock {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.Group {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.block-for-two-blocks {
+    height: 76px;
+    width: 500px;
+    margin-left: 50px;
+    position: absolute;
+    top: 170px;
+    display: flex;
+}
+
+.opisanie-kursa {
+    height: 249px;
+    width: 100%;
+    margin-top: 119px;
+}
+
+.text-blocka {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+
+}
+
+.info-blocka {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #000000;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.programma-cursa {
+    width: 1111px;
+    height: 659px;
+    left: 396px;
+    position: absolute;
+    margin-top: 990px;
+}
+
+.txt-programma-cursa {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+    margin: 0;
+}
+
+.line-prorgam-1 {
+    background-color: #000000;
+    height: 2px;
+    margin-top: 72px;
+    width: 980px;
+    margin-left: 72px;
+}
+
+.line-prorgam-2 {
+    background-color: #000000;
+    height: 2px;
+    width: 980px;
+    margin-left: 72px;
+}
+
+.text1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+    margin-top: 33px;
+    margin-left: 91px;
+    margin-bottom: 33px;
+    margin-right: 0px;
+    width: 700px;
+}
+
+.text2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+    margin-top: 33px;
+    margin-left: 91px;
+    margin-bottom: 33px;
+    margin-right: 0px;
+    width: 700px;
+}
+
+.hz-krest1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    right: 91px;
+    top: 120px;
+    border: 1px black solid;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: default;
+    position: absolute;
+}
+
+.hz-krest2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    right: 91px;
+    top: 206px;
+    border: 1px black solid;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: default;
+}
+
+.hz-krest3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    right: 91px;
+    top: 292px;
+    border: 1px black solid;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: default;
+}
+
+.hz-krest4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    right: 91px;
+    top: 378px;
+    border: 1px black solid;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: default;
+}
+
+.hz-krest5 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    right: 91px;
+    ;
+    top: 578px;
+    border: 1px black solid;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: default;
+}
+
+
+
+
+
+
+.hz-krest1.active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: rotate(45deg);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.hz-krest2.active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: rotate(45deg);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.hz-krest3.active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: rotate(45deg);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.hz-krest4.active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: rotate(45deg);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.hz-krest5.active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: rotate(45deg);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+
+
+.plus {
+    font-size: 50px;
+    margin: 0;
+    height: 41px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+
+.otvet {
+    height: 129px;
+    width: 1110px;
+}
+
+.info-otveta {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.clock-mini {
+    width: 18px;
+    height: 19px;
+    margin-left: 91px;
+    gap: 0px;
+    opacity: 0.9px;
+    margin-right: 20px;
+
+}
+
+.text-mini-clock {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.7px;
+    text-align: left;
+
+}
+
+.text-otveta {
+    margin-left: 91px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.03px;
+    text-align: left;
+
+}
+
+.x {
+    margin-bottom: 10px;
+
+}
+
+.chemu-nauchimsya {
+    width: 1111px;
+    height: 500px;
+
+    left: 396px;
+    position: absolute;
+    margin-top: 1630px;
+
+}
+
+.txt-chemu-nauchimsya {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: left;
+    margin-left: 72px;
+    margin-bottom: 74px;
+}
+
+
+.mnogo-li {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #000000;
+    margin-left: 72px;
+    margin-top: 0;
+    width: 957px;
+}
+
+.mnogo-li-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+
+}
+
+.li1 {}
+
+.bold {
+    list-style-type: none;
+    /* Убираем стандартные маркеры */
+    padding-left: 0;
+    /* Убираем отступ у списка */
+    position: relative;
+    /* Устанавливаем позиционирование для li */
+    padding-left: 20px;
+    /* Отступ слева для текста */
+}
+
+.bold::before {
+    content: '';
+    /* Пустое содержимое для псевдоэлемента */
+    position: absolute;
+    /* Абсолютное позиционирование */
+    left: 0;
+    /* Сдвигаем маркер влево */
+    top: 25%;
+    /* Центрируем по вертикали */
+    transform: translateY(-50%);
+    /* Центрируем по вертикали */
+    width: 10px;
+    /* Ширина маркера */
+    height: 10px;
+    /* Высота маркера */
+    background-color: black;
+    /* Цвет маркера */
+    font-weight: bold;
+    /* Жирный шрифт (не применяется к фону, но можно использовать для текста) */
+    border-radius: 50%;
+    /* Делаем маркер круглым */
+}
+
+.boldы {
+    list-style-type: none;
+    /* Убираем стандартные маркеры */
+    padding-left: 0;
+    /* Убираем отступ у списка */
+    position: relative;
+    /* Устанавливаем позиционирование для li */
+    padding-left: 20px;
+    /* Отступ слева для текста */
+}
+
+.boldы::before {
+    content: '';
+    /* Пустое содержимое для псевдоэлемента */
+    position: absolute;
+    /* Абсолютное позиционирование */
+    left: 0;
+    /* Сдвигаем маркер влево */
+    top: 18%;
+    /* Центрируем по вертикали */
+    transform: translateY(-50%);
+    /* Центрируем по вертикали */
+    width: 10px;
+    /* Ширина маркера */
+    height: 10px;
+    /* Высота маркера */
+    background-color: black;
+    /* Цвет маркера */
+    font-weight: bold;
+    /* Жирный шрифт (не применяется к фону, но можно использовать для текста) */
+    border-radius: 50%;
+    /* Делаем маркер круглым */
+}
+
+
+.li2 {}
+
+.li3 {}
+
+.mnogo-li-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.li4 {}
+
+.li5 {}
+
+.li6 {}
+
+.type-zapisi {
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    border-radius: 20px;
+
+    top: 4430px;
+    left: 470px;
+    opacity: 0px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.шыш {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 8px 0px 0px 0px;
+    width: 318px;
+    height: 79px;
+    gap: 0px;
+}
+
+.шыш::-webkit-details-marker {
+    display: none;
+}
+
+.strelka {
+    color: #555555;
+    padding-right: 10px;
+}
+
+.список {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.вариант1 {
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    border-radius: 10px;
+    margin: 0px;
+    transition: 0.3s;
+    padding: 0;
+}
+
+.вариант2 {
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    border-radius: 10px;
+    margin: 0px;
+    transition: 0.3s;
+    padding: 0;
+}
+
+.вариант1:hover {
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.вариант2:hover {
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+.knopka1 {
+    background-color: #C28221;
+    width: 318px;
+    height: 79px;
+    border-radius: 20px;
+    top: 4430px;
+    left: 815px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.zapisaca-knopka {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+    color: white;
+}
+
+.knopka2 {
+    background-color: #C28221;
+    width: 318px;
+    height: 79px;
+    border-radius: 20px;
+    top: 4430px;
+    left: 1149px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.kupit-knopka {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+    color: white;
+}
+
+.Group1089 {
+    width: 1355px;
+    top: 4746px;
+    left: 282.5px;
+    gap: 0px;
+    opacity: 0px;
+
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 350px;
+    height: 454px;
+    margin: 50px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    border: 1px solid #E7E7E7
+}
+
+.slider-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.slider-controls button {
+    border: none;
+    color: #585858;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.slider-indicators {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slider-indicators .dot {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.slider-indicators .dot.active {
+    background-color: #C28221;
+    box-shadow: none;
+}
+
+.woomen {}
+
+.first-txt {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    margin-left: 41px;
+}
+
+.second-txt {
+    margin-left: 41px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #4A4A4A;
+
+}
+
+.priemushcestva {
+    width: 952px;
+    height: 75px;
+    top: 4650px;
+    left: 392px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.38px;
+    text-align: left;
+
+}
+
+
+.last-section {
+    width: 1900px;
+    height: 711px;
+    top: 10984.99px;
+    left: -160px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #20202A;
+}
+
+.xz1 {
+    position: absolute;
+    left: 390px;
+    height: 711px;
+    width: 252px;
+}
+
+.logo-delfa {
+    height: 35px;
+    top: 110px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+q {}
+
+.q1 {}
+
+.q2 {}
+
+.q3 {}
+
+.q4 {}
+
+.q5 {}
+
+.q6 {}
+
+.q7 {}
+
+.p1 {}
+
+.t {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35.78px;
+    text-align: left;
+    color: #B5B5B5;
+    margin: 0;
+}
+
+.t:hover {
+    color: #ffffff;
+}
+
+.p-block {
+    width: 252px;
+    top: 196px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.p2 {}
+
+.p3 {}
+
+.p4 {}
+
+.p5 {}
+
+.p6 {}
+
+.p7 {}
+
+.p8 {}
+
+.p9 {}
+
+.p10 {}
+
+.xz2 {}
+
+.xz3 {}
+
+.v {
+    color: #B5B5B5;
+    text-decoration: none;
+}
+
+.v:hover {
+    color: #ffffff;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.education {
+    padding: 100px;
+    position: relative;
+
+}
+
+.education-tittle {
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.38px;
+    text-align: left;
+    display: contents;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    padding-left: 150px;
+}
+
+.education-choice {
+    padding: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42.19px;
+    text-align: left;
+    display: flex;
+    margin: 20px;
+}
+
+.education-choice-Remotely {
+    padding-right: 150px;
+    padding-left: 450px;
+    height: min-content;
+}
+
+.education-choice-inPerson {
+    padding-left: 200px;
+    height: min-content;
+}
+
+.education-img {
+    padding: 30px;
+    justify-content: space-between;
+    padding-left: 150px;
+}
+
+.education-info {
+    position: absolute;
+    right: 219px;
+    top: 350px;
+    left: 623px;
+}
+
+.education-tittle-n2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    padding: 40px;
+
+}
+
+.education-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+.education-line {background-color: #B0751D;
+    
+    width: 300px;
+    height: 5px;
+    border-radius: 8px;
+    position: absolute;
+    top: 286px;
+    left: 265px;
+
+}
+.requirements {
+    background: linear-gradient(90deg, #000000 0%, #000000 100%);
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.requirements-text {
+    border: 3px solid #C28221;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 1101.89px;
+    height: 246px;
+    font-family: Roboto;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 36.33px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.mir {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.reg {
+    background: linear-gradient(90deg, #000000 0%, #000000 100%);
+    display: flex;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+    align-content: center;
+}
+
+.reg-tittle {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: center;
+    color: #FFFFFF;
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    top: 1715px;
+
+}
+
+.reg_center {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    width: 950px;
+    height: 400px;
+}
+
+.reg_center_left {
+    position: relative;
+    flex: 1 1 auto;
+    padding-right: 15px;
+    justify-content: left;
+
+    align-items: center;
+    padding-left: 70px;
+    height: min-content;
+}
+
+.reg_center-tittle {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+    width: 350px;
+    padding: 40px;
+}
+
+.reg_center-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-align: left;
+    width: 190px;
+    padding-left: 120px;
+
+}
+
+
+.reg-name {
+    padding: 10px;
+}
+
+.reg-name-text {
+    background-color: #FFFFFF;
+    width: min-content;
+    border-radius: 5px;
+    position: absolute;
+    top: 42px;
+    right: 308px;
+
+}
+
+.reg-tel {
+    padding: 10px;
+}
+
+.reg-tel-text {
+    background-color: #FFFFFF;
+    width: min-content;
+    border-radius: 5px;
+    position: absolute;
+    top: 120px;
+    right: 278px;
+
+}
+
+.reg-Email {
+    padding: 10px;
+}
+
+.reg-Email-text {
+    background-color: #FFFFFF;
+    width: min-content;
+    border-radius: 5px;
+    position: absolute;
+    top: 196px;
+    right: 300px;
+}
+
+.reg-bttn {
+    color: #FFFFFF;
+    background-color: #C28221;
+    border-radius: 40px;
+    border: none;
+    width: 360px;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+    margin: 10px;
+    margin-left: 55px
+}
+
+.reg-bttn:hover {
+    background-color: #a36c1a;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.reg-bttn-info {
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+}
+
+a {
+    color: #000000;
+}
+
+.reg_center-right {
+    position: absolute;
+    right: 580px;
+    width: 400px;
+    top: 1820px;
+}
+
+
+input {
+    border: 1px solid #B5BBC2;
+    border-radius: 10px;
+    width: 135px;
+    height: 26px;
+    padding: 14px 280px 15px 12px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.reg_center-input {
+    padding: 40px;
+    width: 200px;
+    padding-bottom: 15px;
+}
+
+.reg-bttn-all {
+    position: absolute;
+    right: -54px;
+    top: 261px;
+}
